@@ -22,13 +22,13 @@ brew tap homebrew/cask-versions
 
 echo "Installing packages..."
 
-brew install btop dotnet expat eza lazydocker lazygit zsh
+brew install btop expat eza lazydocker lazygit zsh
 
 # Install Casks
-brew install --cask cursor dbvisualizer hoppscotch \
+brew install --cask cursor dbvisualizer \
   iterm2 jetbrains-toolbox jordanbaird-ice maccy monitorcontrol \
   openkey openvpn-connect orbstack postman rectangle \
-  sourcetree tableplus visual-studio-code windsurf
+  sourcetree tableplus visual-studio-code aldente maccy
 
 # Optional: Cleanup
 brew cleanup
